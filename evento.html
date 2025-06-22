@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Boletos Bad Bunny - MedellinGO</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f6f7fb;
+      color: #111;
+    }
+
+    header {
+      background: #0052cc;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .logo span {
+      color: #4cd964;
+    }
+
+    .search input {
+      padding: 10px;
+      border-radius: 8px;
+      border: none;
+      width: 280px;
+    }
+
+    .main {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 0 20px;
+      gap: 30px;
+    }
+
+    .left {
+      flex: 1;
+    }
+
+    .right {
+      flex: 1;
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .alert {
+      background-color: #e8f0ff;
+      color: #065fd4;
+      padding: 10px;
+      border-radius: 8px;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .filters {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .filters select {
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      background-color: white;
+    }
+
+    .event-box {
+      background: white;
+      margin-bottom: 15px;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 6px rgba(0,0,0,0.08);
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+    }
+
+    .event-date {
+      text-align: center;
+      font-weight: bold;
+      font-size: 16px;
+      min-width: 60px;
+      color: #444;
+    }
+
+    .event-info {
+      flex: 1;
+    }
+
+    .event-info h4 {
+      margin: 0;
+      font-size: 16px;
+      color: #222;
+    }
+
+    .tag {
+      background: #fde2eb;
+      color: #c4005c;
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      margin-top: 5px;
+      display: inline-block;
+    }
+
+    .tag-blue {
+      background: #e4f0ff;
+      color: #0073e6;
+    }
+
+    .buy-button {
+      background-color: #4cd964;
+      color: white;
+      padding: 10px 18px;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .artist-img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .tags span {
+      background: #e3f7e9;
+      color: #24a148;
+      padding: 5px 10px;
+      margin-right: 10px;
+      border-radius: 6px;
+      font-size: 12px;
+    }
+
+    .desc {
+      font-size: 14px;
+      margin-top: 10px;
+      color: #333;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 12px;
+      margin-top: 50px;
+      padding: 20px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">ticketmaster<span></span></div>
+    <div class="search"><input type="text" placeholder="Buscar espectáculos, partidos..."></div>
+  </header>
+
+  <div class="main">
+    <div class="left">
+      <h2>Boletos Bad Bunny</h2>
+      <div class="alert">👥 <b>1,334 personas</b> vieron eventos de Bad Bunny durante la última hora</div>
+
+      <div class="filters">
+        <select><option>Medellín</option></select>
+        <select><option>Todas las fechas</option></select>
+        <select><option>Precio</option></select>
+      </div>
+
+      <p><b>3 eventos</b> cerca de <b>Medellín</b></p>
+
+      <div class="event-box">
+        <div class="event-date">
+          ENE<br><b>23</b><br>2026
+        </div>
+        <div class="event-info">
+          <h4>Estadio Atanasio Girardot, Medellín, Colombia – 20:00</h4>
+          <div class="tag">🔥 Estas entradas se están vendiendo rápido</div><br>
+          <a href="e.html" class="buy-button">Ver entradas</a>
+        </div>
+      </div>
+
+      <div class="event-box">
+        <div class="event-date">
+          ENE<br><b>24</b><br>2026
+        </div>
+        <div class="event-info">
+          <h4>Estadio Atanasio Girardot, Medellín, Colombia</h4>
+          <div class="tag tag-blue">🔄 Se han añadido nuevas entradas en nuestro sitio</div><br>
+          <a href="e.html" class="buy-button">Ver entradas</a>
+        </div>
+      </div>
+
+      <div class="event-box">
+        <div class="event-date">
+          ENE<br><b>25</b><br>2026
+        </div>
+        <div class="event-info">
+          <h4>Estadio Atanasio Girardot, Medellín, Colombia</h4>
+          <div class="tag">🎟️ Disponibilidad limitada</div><br>
+          <a href="e.html" class="buy-button">Ver entradas</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="right">
+      <img class="artist-img" src="https://cdn.getcrowder.com/images/02084cd9-4a39-465f-bd15-60c8ae79c511-bbbanner-principal-evento.gif" alt="Bad Bunny">
+      <h3>Bad Bunny</h3>
+      <div class="tags">
+        <span>Reggaetón</span>
+        <span>Latin</span>
+      </div>
+      <p class="desc">
+        Benito Antonio Martínez Ocasio, mejor conocido como Bad Bunny, es un cantante, compositor y productor puertorriqueño de trap y reggaetón. Ha revolucionado la industria con su estilo único, autenticidad y espectáculos impactantes.
+      </p>
+      <iframe style="border-radius:10px;margin-top:10px;" src="https://open.spotify.com/embed/artist/4q3ewBCX7sLwd24euuV69X?utm_source=generator&theme=0" width="100%" height="160" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+  </div>
+
+  <div class="footer">
+    © 2025 ticketmaster — Todos los derechos reservados.
+  </div>
+
+</body>
+</html>
